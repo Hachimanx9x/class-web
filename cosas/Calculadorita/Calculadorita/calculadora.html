@@ -1,0 +1,58 @@
+<!DOCTYPE html>
+<html>
+
+<head>
+    <meta charset="utf-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <title>Clase media queries</title>
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <link rel="stylesheet" type="text/css" media="screen" href="./resources/media.css" />
+    <script src ="app/main.js"></script>
+</head>
+
+<body>
+    <div class="o-big-container">
+        <div class="o-numbers-container">
+            <div class="o-text-container">
+                <h1 class="o-title">
+                    UAO
+                </h1>
+                <h1 class="o-title-black">
+                    CALCULATOR
+                </h1 class="o-card-paragraph">
+                <p>Número 1</p>
+                <input class="o-text-area" maxlength="5" onpaste="return false;"  onchange="handleInput('text_number_1')"  type="text"  id="text_number_1">
+                <p>Número 2</p>
+                <input class="o-text-area" onchange="handleInput('text_number_2')"  maxlength="5" onpaste="return false;"  type="text" id="text_number_2"> 
+                <div class="o-select-container">
+                        <p>Operador</p>
+                <select class="o-select" onchange="handleSelect()" id="select_operation" >
+                    <option value="1">Suma</option>
+                    <option value="2">Resta</option>
+                    <option value="3">Multiplicación</option>
+                    <option value="4">División</option>
+                    <option value="5">Exponente</option>
+                </select>
+            </div>
+            </div>
+        </div>
+
+        <div class="o-button-container">
+            <div class="o-card-text-container">
+              <button onclick="calculate()" class="o-button">=</button>
+            </div>
+        </div>
+
+        <div class="o-values-container">
+            <div class="o-card-text-container">
+                <p>Resultado</p>           
+                <input type="text" id="result_number" class="o-result-number" >
+               
+            </div>
+        </div>
+
+        </div>
+
+</body>
+
+</html>

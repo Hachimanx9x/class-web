@@ -1,0 +1,27 @@
+.container{
+  background-color: #d3fffb;
+  width:100rem;
+  height:100rem;
+
+}
+.title{
+  margin-top: 3rem;
+  font-family: 'Reggae One', cursive;
+  color: black;
+  font-size: 3rem;
+}
+.infobasi{
+  color: #000840;
+  margin-top: 1rem;
+}
+.proyectos{
+  margin-left: 2rem;
+}
+.pro1.title{
+  font-size: 2rem;
+}
+h1{
+  font-family: 'Reggae One', cursive;
+    font-size: 3rem;
+    color:  #0f26c6 ;
+}

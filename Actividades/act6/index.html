@@ -1,0 +1,48 @@
+<!DOCTYPE html>
+<html lang="es" dir="ltr">
+  <head>
+    <meta charset="utf-8">
+    <link rel="stylesheet" href="./assets/css/master.css">
+    <title>Calcular</title>
+  </head>
+  <body>
+    <div class="o-container">
+      <div class="o-dates">
+      <div class="o-txt">
+        <div class="o-txt-nor">
+          UAO
+        </div>
+         <div class="o-txt-bold">
+           Calcular
+         </div>
+      </div>
+    <div class="o-inputs">
+      <label for="">Numero1</label>
+      <input type="number"  onchange="fchange()" name="" class="o-input" id="num1" >
+      <label for="">Numero2</label>
+      <input type="number" onchange="fchange()" name="" class="o-input" id="num2" >
+    </div>
+    <div class="o-operator">
+      <label for="">Operación</label>
+    <select name="select" onchange="fchange()" id="operator">
+      <option value="Sumar">Sumar</option>
+      <option value="Restar" selected>Restar</option>
+      <option value="Multiplicar">Multiplicar</option>
+      <option value="Dividir">Dividir</option>
+    </select>
+    </div>
+
+      </div>
+
+      <div class="o-run">
+      <button type="button" class="o-btn-run" onclick="fclic()" name="button">=</button>
+      </div>
+      <div class="o-result">
+      <label for="">Resultado</label>
+      <input type="number" name="" class="o-input-result" id="response" disabled>
+      </div>
+    </div>
+  <script src="./assets/js/script.js" charset="utf-8"></script>
+
+  </body>
+</html>

@@ -1,0 +1,91 @@
+body{
+    background-color: rgb(232, 232, 232);
+    font-family: "FontAwesome";
+      src: url("assets/fonts/fontawesome.ttf");
+}
+a{
+    text-decoration: none;
+    color: black;
+}
+video{
+    width: 100%; 
+    filter: brightness(0.3);
+    opacity: 0.5; 
+}
+#header a{
+    color: white; 
+}
+#header{
+    display: flex;
+    justify-content:space-between;
+    padding: 0.5rem; 
+    color: white; 
+    background-color: black;
+}
+.logo{
+     color: white; 
+}
+
+
+#banner{
+    display: flex;
+    justify-content: center;
+    align-items: center; 
+    background: linear-gradient(90deg, rgba(177,1,8,1) 0%, rgba(9,0,0,1) 100%, rgba(148,237,255,1) 100%);
+    width: 100%;
+    
+   
+}
+
+#banner .inner{
+    
+   
+    position: absolute; 
+    display: flex;
+    flex-direction: column; 
+    justify-content: center;
+    align-items: center; 
+    color:  white; 
+    z-index: 1000; 
+}
+#banner .inner a{
+    color: white; 
+}
+.wrapper{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+.wrapper .inner {
+    display: flex;
+    flex-direction: column;
+   align-items: center;
+    width: 100%;
+}
+
+.wrapper .inner .special{
+
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    width: 35rem; 
+}
+
+.wrapper .inner .highlights{
+    display: flex;
+    flex-direction: initial;
+    justify-content: center;
+    flex-wrap: wrap;
+    width: 50rem;
+}
+.wrapper .inner .highlights .content{
+    background-color: white;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    width: 12rem;
+    margin: 1rem;
+    padding: 1rem;
+
+}
